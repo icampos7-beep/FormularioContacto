@@ -146,6 +146,7 @@
             this.lblConf.Size = new System.Drawing.Size(101, 18);
             this.lblConf.TabIndex = 6;
             this.lblConf.Text = "Confirmación:";
+            this.lblConf.Click += new System.EventHandler(this.lblConf_Click);
             // 
             // txtConf
             // 

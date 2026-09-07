@@ -16,5 +16,10 @@ namespace FormularioContacto
         {
             InitializeComponent();
         }
+
+        private void lblConf_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
