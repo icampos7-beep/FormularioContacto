@@ -69,6 +69,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(416, 20);
             this.txtNombre.TabIndex = 2;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // grpMotivo
             // 
@@ -136,6 +137,7 @@
             this.btnEnviar.TabIndex = 5;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // lblConf
             // 
@@ -156,6 +158,7 @@
             this.txtConf.ReadOnly = true;
             this.txtConf.Size = new System.Drawing.Size(523, 58);
             this.txtConf.TabIndex = 7;
+            this.txtConf.TextChanged += new System.EventHandler(this.txtConf_TextChanged);
             // 
             // linkPolitica
             // 
